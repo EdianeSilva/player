@@ -8,7 +8,7 @@
 body {
   height: 100vh;
   font-family: "Kelly Slab", cursive;
-  background: #232427;
+  background: #23242713;
 }
 h5{
   position: absolute;
@@ -24,12 +24,12 @@ body .card {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 270px;
-  height: 430px;
-  background: transparent;
+  height: 450px;
   backdrop-filter: blur(10px);
   overflow: hidden;
   border-radius: 15px;
-  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2), inset -5px -5px 15px rgba(255, 255, 255, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px rgba(255, 255, 255, 0.1);
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  border: 2px solid rgba(253, 249, 249, 0.1);
 }
 body .player {
   position: absolute;
@@ -132,7 +132,7 @@ body .player .player-list {
   margin-top: -20px;
   height: 380px;
   overflow: scroll;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.815);
   z-index: 2;
   transition: all 0.5s ease-in-out;
 }
