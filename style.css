@@ -12,10 +12,10 @@ body {
 }
 h5{
   position: absolute;
-  bottom: 2%;
-  right: 2%;
+  bottom: 3%;
+  right: 3%;
   color: #fff;
-  font-size: 1rem;
+  font-size: .8rem;
   padding: .9rem 0.9em;
 }
 body .card {
