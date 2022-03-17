@@ -10,6 +10,21 @@ body {
   font-family: "Kelly Slab", cursive;
   background: #232427;
 }
+h5{
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  color: #fff;
+  border: transparent;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: .9rem 0.9em;
+  background-size: 400%;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+
+}
 body .card {
   position: absolute;
   top: 50%;
@@ -203,8 +218,8 @@ body .player.activeSongList .main {
 /*FullScreen Button*/
 button {
   position: absolute;
-  bottom: 5%;
-  right: 5%;
+  bottom: 8%;
+  right: 8%;
   color: #fff;
   border: transparent;
   border-radius: 15px;
