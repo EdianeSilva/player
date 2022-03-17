@@ -15,15 +15,8 @@ h5{
   bottom: 2%;
   right: 2%;
   color: #fff;
-  border: transparent;
-  border-radius: 8px;
   font-size: 1rem;
   padding: .9rem 0.9em;
-  background-size: 400%;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.5s;
-
 }
 body .card {
   position: absolute;
